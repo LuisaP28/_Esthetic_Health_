@@ -16,7 +16,30 @@ body{
   background-color: #F5EEE6;
 }
 
+.salirIndex{
+  width: 50px;
+  height: 50px;
+  background-color: #e9e4d4;
+  border: 3px solid #1a5b72;
+  border-radius: 50%;
+  position: fixed;
+  top: 30px;
+  left: 30px;
+  transition: all 0.5s ease;
+}
 
+.flecha{
+  color: #1a5b72;
+  transition: all 0.5s ease;
+}
+
+.salirIndex:hover {
+  background-color: #1a5b72;
+}
+
+.salirIndex:hover .flecha{
+  color: #e9e4d4;
+}
 
 /* aviso inicio */
 .alineador{
